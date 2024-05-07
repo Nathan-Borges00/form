@@ -1,7 +1,39 @@
 .card {
   padding: 0 3rem;
+  width: 100%;
 
   ::ng-deep .p-card-content {
     padding: 0px !important;
+  }
+}
+
+.pessoal_infos_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__itens {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: content;
+
+    label {
+      margin-bottom: 1.5%;
+    }
+
+    input {
+      background-color: var(--gray-100);
+    }
+
+    &__endereco {
+      label {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .nome_label,
+  .email_label {
+    margin-right: 3%;
   }
 }

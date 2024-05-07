@@ -5,11 +5,69 @@
     [style]="{ backgroundColor: 'var(--gray-500)', color: 'var(--gray-50)' }"
   >
     <p-divider></p-divider>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
-      consequuntur error repudiandae numquam deserunt quisquam repellat libero
-      asperiores earum nam nobis, culpa ratione quam perferendis esse,
-      cupiditate neque quas!
-    </p>
+
+    <form action="">
+      <div class="pessoal_infos_container">
+        <div class="pessoal_infos_container__itens nome_label">
+          <label for="name">Nome</label>
+          <input type="text" pInputText formControlName="name" />
+        </div>
+        <div class="pessoal_infos_container__itens email_label">
+          <label for="name ">Email</label>
+          <input type="text" pInputText formControlName="email" />
+        </div>
+        <div class="pessoal_infos_container__itens celular_label">
+          <label for="celular">Celular</label>
+          <input type="text" pInputText formControlName="celular" />
+        </div>
+      </div>
+
+      <p-divider></p-divider>
+
+      <div class="pessoal_infos_container">
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="cep">CEP</label>
+          <input type="text" pInputText formControlName="cep" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="estado">Estado</label>
+          <input type="text" pInputText formControlName="estado" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="cidade">Cidade</label>
+          <input type="text" pInputText formControlName="cidade" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="bairro">Bairro</label>
+          <input type="text" pInputText formControlName="bairro" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="rua">Rua</label>
+          <input type="text" pInputText formControlName="rua" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="numero">Número</label>
+          <input type="text" pInputText formControlName="numero" />
+        </div>
+        <div
+          class="pessoal_infos_container__itens pessoal_infos_container__itens__endereco"
+        >
+          <label for="complemento">Complemento</label>
+          <input type="text" pInputText formControlName="complemento" />
+        </div>
+      </div>
+    </form>
   </p-card>
 </div>
