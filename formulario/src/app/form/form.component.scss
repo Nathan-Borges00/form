@@ -37,3 +37,24 @@
     margin-right: 3%;
   }
 }
+
+.pessoal_infos_container__endereco {
+  display: flex;
+  flex-direction: column;
+
+  &__itens {
+    display: flex;
+    margin-bottom: 10px;
+
+    &__style {
+      display: flex;
+      width: 100%;
+    }
+
+    .cep_label,
+    .cidade_label,
+    .numero_label {
+      margin-right: 3%;
+    }
+  }
+}
